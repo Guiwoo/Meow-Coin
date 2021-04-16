@@ -4,8 +4,12 @@
   "description": "guiwoo coin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node index.js",
+    "prestart":"npx tsc"
   },
   "author": "Guiwoo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
