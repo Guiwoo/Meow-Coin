@@ -4,12 +4,15 @@
   "description": "guiwoo coin",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
-    "prestart":"npx tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
   },
   "author": "Guiwoo",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "tsc-watch": "^4.2.9"
   }
 }
